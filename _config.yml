@@ -70,6 +70,7 @@ gems:
   - jekyll-sitemap
   - jekyll-paginate
   - pygments.rb
+  - jekyll-gist
 sass:
   sass_dir: _sass
   style: compressed
