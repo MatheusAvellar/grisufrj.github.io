@@ -4,6 +4,8 @@ title: Post with a Background Image
 description: "Sample post with a background image CSS override."
 tags: [sample post]
 categories: [image]
+author: gris
+published: false
 image:
   background: triangular.png
 ---

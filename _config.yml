@@ -1,9 +1,9 @@
-title:            Blog Title
-description:      Describe your website here.
-disqus_shortname: neohpstrtheme
+title:            GRIS
+description:      Blog do GRIS
+disqus_shortname: grisufrj
 reading_time:     true
 words_per_minute: 200
-logo:             images/logo.png
+logo:             images/GRIS_logo1.png
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
 # When testing locally leave blank or use http://localhost:4000
 # url: http://aronbordin.com/neo-hpstr-jekyll-theme
@@ -27,31 +27,49 @@ menu:
         url: '/readability-post/'
 
 # Owner/author information
-owner:
-  name:           Your name
-  site:           http://aronbordin.com
-  avatar:         images/avatar.jpg
-  bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
-  email:          you@email.com
-  # Social networking links used in footer. Update and remove as you like.
-  twitter: aron_bordin
-  facebook:
-  github: aron-bordin
-  stackexchange:
-  linkedin:
-  instagram:
-  flickr:
-  tumblr:
-  # google plus id, include the '+', eg +AronBordin
-  google_plus:    +yourid
+authors:
+  gris: 
+   display_name:   GRIS
+   site:           http://www.gris.dcc.ufrj.br
+   avatar:         images/GRIS_logo1.png
+   bio:            "Grupo de Resposta a Incidentes de Segurança."
+   email:          gris@gris.dcc.ufrj.br
+   # Social networking links used in footer. Update and remove as you like.
+   twitter: 
+   facebook: grisdccufrj
+   github: grisdccufrj
+   stackexchange:
+   linkedin:
+   instagram:
+   flickr:
+   tumblr:
+   # google plus id, include the '+', eg +AronBordin
+   google_plus:    +yourid
+  jvitor: 
+   display_name:   João Vitor Rebouças
+   site:           http://dcc.ufrj.br/~jvitor
+   avatar:         images/jvitor.jpg
+   bio:            "nMembro de RSS e bonito."
+   email:          jvitor at gris.dcc.ufrj.br
+   # Social networking links used in footer. Update and remove as you like.
+   twitter: jvitor03
+   facebook: jvitor03
+   github: jvitor03
+   stackexchange:
+   linkedin:
+   instagram:
+   flickr:
+   tumblr:
+   # google plus id, include the '+', eg +AronBordin
+   google_plus:    +yourid 
+
+
 
 social:
   - title: "github"
-    url: "https://github.com/aron-bordin"
-  - title: "linkedin"
-    url: "https://br.linkedin.com/in/aronbordin"
-  - title: "youtube"
-    url: "https://www.youtube.com/channel/UCfnSek-9HPWOx5e2pH7VFgg"
+    url: "https://github.com/grisufrj"
+  - title: "facebook"
+    url: "https://www.facebook.com/grisdccufrj/"
 # Background image to be tiled on all pages
 background:
 
@@ -62,7 +80,7 @@ google_verify:
 bing_verify:
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
+timezone:    America/Sao_Paulo
 future:      true
 highlighter: pygments
 markdown:    kramdown
@@ -78,7 +96,7 @@ sass:
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:categories/:title/
 
-# Amount of post to show on home page
+# Amount of post to show on home DFS/Fpage
 paginate: 5
 
 kramdown:

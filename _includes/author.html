@@ -3,10 +3,10 @@
     <a href="{{ site.owner.site }}" class="read-more-btn">About the Author</a>
   </div><!-- /.read-more-header -->
   <div class="read-more-content author-info">
-    <h3>{{site.owner.name}}</h3>
+    <h3>{{author2.display_name}}</h3>
     <div class="author-container">
-      <img class="author-img" src="{{site.url}}/{{site.owner.avatar}}" alt="{{site.owner.name}}" />
-      <div class="author-bio">{{site.owner.bio}}</div>
+      <img class="author-img" src="{{site.url}}/{{author2.avatar}}" alt="{{author2.display_name}}" />
+      <div class="author-bio">{{author2.bio}}</div>
     </div>
     <div class="author-share">
       <ul class="list-inline social-buttons">
@@ -14,12 +14,12 @@
           <li><a href="{{ network.url }}" target="_blank"><i class="fa fa-{{ network.title }} fa-fw"></i></a></li>
         {% endfor %}
       </ul>
-      {% if site.owner.github %}
-        <a aria-label="Follow @{{site.owner.github}} on GitHub" data-style="mega" href="https://github.com/{{site.owner.github}}" class="github-button">Follow @{{site.owner.github}}</a>
+      {% if author2.github %}
+        <a aria-label="Follow @{{author2.github}} on GitHub" data-style="mega" href="https://github.com/{{author2.github}}" class="github-button">Follow @{{author2.github}}</a>
       {% endif %}
       <br>
-      {% if site.owner.twitter %}
-        <a href="https://twitter.com/{{site.owner.twitter}}" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @{{site.owner.twitter}}</a>
+      {% if author2.twitter %}
+        <a href="https://twitter.com/{{author2.twitter}}" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @{{author2.twitter}}</a>
       {% endif %}
     </div>
   </div>
