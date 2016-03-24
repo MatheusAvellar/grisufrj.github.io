@@ -11,20 +11,20 @@ logo:             images/GRIS_logo1.png
 menu:
   - title: 'Home'
     url: '/'
-  - title: 'About'
+  - title: 'Sobre'
     url: '/about'
   - title: 'Tags'
     url: '/tags'
-  - title: 'Categories'
+  - title: 'Categorias'
     url: '/categories'
     type: 'categories'
-  - title: 'Favorites'
+  - title: 'Portal'
     url: '#'
     submenu:
-      - title: 'highlighter'
-        url: '/code-highlighting-post/'
-      - title: 'intro'
-        url: '/readability-post/'
+      - title: 'Site'
+        url: 'http://gris.dcc.ufrj.br'
+      - title: 'Git'
+        url: 'https://git.gris.dcc.ufrj.br/explore/projects/starred'
 
 # Owner/author information
 authors:
