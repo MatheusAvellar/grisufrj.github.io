@@ -5,14 +5,12 @@ description: "Blog do GRIS"
 tags: []
 categories: []
 author: jvitor
-published: true
+published: false
 ---
 
 # Bem Vindos ao blog do GRIS
 
-LG fará um texto bem bonito aqui falando sobre o objetivo do blog e sobre os nossos projetos.
-
-Enquanto isso ficarei enrolando.
+Texto aqui.
 
 vlw.
 

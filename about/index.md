@@ -1,34 +1,20 @@
 ---
 layout: page
-title: About the Jekyll Theme
-image:
-  feature: abstract-5.jpg
-  credit: dargadgetz
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
+title: Sobre o GRIS
 comments: false
 modified: 2014-12-24
+author: gris
 ---
 
-They say three times the charm, so here is another free responsive Jekyll blog theme for you. I've learned a ton since open sourcing my first two themes [on Github](http://github.com/mmistakes), and wanted to try a few new things this time around. 
-
-If you've used any of [my other themes](http://mademistakes.com/work/jekyll-themes/) most of this should be familiar territory...
-
-## What HPSTR brings to the table:
-
-* Responsive templates for post, page, and post index `_layouts`. Looks great on mobile, tablet, and desktop devices.
-* Gracefully degrads in older browsers. Compatible with Internet Explorer 8+ and all modern browsers.  
-* Modern and minimal design.
-* Sweet animated menu.
-* Background image support.
-* Readable typography to make your words shine.
-* Support for large images to call out your favorite posts.
-* Built-in support for Sass courtesy of Jekyll 2.x.
-* Optional [Disqus](http://disqus.com) comments.
-* Simple and clear permalink structure[^1].
-* [Open Graph](https://developers.facebook.com/docs/opengraph/) and [Twitter Cards](https://dev.twitter.com/docs/cards) support for a better social sharing experience.
-* Simple [custom 404 page]({{ site.url }}/404.html) to get you started.
-* Stylesheets for Pygments and Coderay [syntax highlighting]({{ site.url }}/code-highlighting-post/) to make your code examples look snazzy.
-
-<div markdown="0"><a href="{{ site.url }}/theme-setup/" class="btn btn-info">Theme Setup</a> <a href="https://github.com/mmistakes/hpstr-jekyll-theme" class="btn btn-success">Download HPSTR</a></div>
-
-[^1]: Example: *domain.com/category-name/post-title*
+<h2 class="section-heading">Sobre</h2>
+<p>Atuamos no Departamento de Ciência da Computação da Universidade Federal do Rio de Janeiro e em outras unidades solicitantes da Universidade. Temos como objetivo a detecção, resolução e prevenção de incidentes de segurança, além de oferecer suporte acadêmico aos estudantes da UFRJ que possuam interesse particular na área de segurança da informação. Dentre as principais atividades do GRIS estão:</p>
+<ul>
+<li>Aplicar atualizações de segurança</li>
+<li>Registrar e acompanhar ocorrências de segurança</li>
+<li>Avaliar condições de segurança da rede</li>
+<li>Divulgar práticas e recomendações de segurança</li>
+<li>Auxiliar no reparo a danos causados por incidentes de segurança</li>
+<li>Analisar sistemas comprometidos buscando causas, danos e responsáveis(análise forense)</li>
+<li>Oferecer educação e treinamento para administradores de sistemas</li>
+</ul>
+<p>A missão maior do GRIS, como projeto do Departamento de Ciência da Computação, é oferecer orientação e suporte acadêmico aos alunos do curso de Bacharelado em Ciência da Computação do Departamento de Ciência da Computação da UFRJ, sem fins lucrativos, no que tange a temática da Segurança da Informação em todas as suas vertentes, nos âmbitos de ensino, pesquisa e extensão, e este é o principal, senão único, critério de orientação para questões internas e externas.</p>
