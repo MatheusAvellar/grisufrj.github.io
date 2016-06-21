@@ -44,15 +44,15 @@ authors:
    flickr:
    tumblr:
    # google plus id, include the '+', eg +AronBordin
-   google_plus:    +yourid
+   google_plus:
   jvitor: 
    display_name:   João Vitor Rebouças
    site:           http://dcc.ufrj.br/~jvitor
    avatar:         images/jvitor.jpg
-   bio:            "nMembro de RSS e bonito."
+   bio:            "Estudante de ciência da computação e membro da equipe de Redes Sites e Sistemas do GRIS"
    email:          jvitor at gris.dcc.ufrj.br
    # Social networking links used in footer. Update and remove as you like.
-   twitter: jvitor03
+   twitter:
    facebook: jvitor03
    github: jvitor03
    stackexchange:
@@ -61,9 +61,24 @@ authors:
    flickr:
    tumblr:
    # google plus id, include the '+', eg +AronBordin
-   google_plus:    +yourid 
-
-
+   google_plus:
+  lgribeiro:
+   display_name:   Luiz Guilherme Ribeiro
+   site:           
+   avatar:         images/lgribeiro.jpg
+   bio:            "Estudante de ciência da computação,  entusiasta da área de segurança e amante de soluções criativas e mirabolantes (gambiarras)"
+   email:          lgribeiro at gris.dcc.ufrj.br
+   # Social networking links used in footer. Update and remove as you like.
+   twitter: 
+   facebook: luizguilherme.ribeiro.1
+   github: luizgribeiro
+   stackexchange:
+   linkedin:
+   instagram:
+   flickr:
+   tumblr:
+   # google plus id, include the '+', eg +AronBordin
+   google_plus:
 
 social:
   - title: "github"
