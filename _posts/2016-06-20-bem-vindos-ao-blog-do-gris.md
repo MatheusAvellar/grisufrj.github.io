@@ -6,6 +6,7 @@ tags: []
 categories: []
 author: lgribeiro
 published: true
+fullview: true
 ---
 
 Teremos como intuito aqui apresentar ao público os desafios encontrados no dia a dia dos membros do grupo, comentários de notícias 

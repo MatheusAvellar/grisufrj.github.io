@@ -34,6 +34,9 @@ comments: false
   <div class="entry-content">
     {% if post.content contains "<!-- more -->" %}
     {{ post.content | split:"<!-- more -->" | first % }}
+    <a href="{{ site.url }}{{ post.url }}">
+        Ver mais...
+    </a>
     {% else %}
       {{ post.content }}
     {% endif %}
