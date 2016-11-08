@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mr robot's raspberry Pi
+title: Mr. robot's raspberry Pi
 description: "Como criar um raspberry Pi semelhante ao utilizado por Elliot na primeira temporada de Mr Robot"
 tags: [Mr_robot, raspberry, hack, reverse_shell]
 categories: [raspberry, hack]
