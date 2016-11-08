@@ -80,6 +80,24 @@ authors:
    tumblr:
    # google plus id, include the '+', eg +AronBordin
    google_plus:
+  vpires:
+   display_name:   Victor Ribeiro Pires
+   site:           
+   avatar:         images/vpires.jpg
+   bio:            "Estudante de ciência da computação"
+   email:          victorpires at gris.dcc.ufrj.br
+   # Social networking links used in footer. Update and remove as you like.
+   twitter: 
+   facebook: victorpiresvrp
+   github: slowhusky
+   stackexchange:
+   linkedin:
+   instagram:
+   flickr:
+   tumblr:
+   # google plus id, include the '+', eg +AronBordin
+   google_plus:
+
 
 social:
   - title: "github"
