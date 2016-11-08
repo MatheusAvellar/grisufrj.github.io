@@ -12,7 +12,7 @@ Algum tempo atrás estava dando uma olhada nos posts da série Mr Robot do [null
 
 A publicação sobre como criar um raspberry para hacking não é exetamente igual as condições encontradas por Elliot na série no episódio eps1.3\_\_da3m0ns.mp4. Portanto, optei por adaptar um pouco esse tutorial para que ele se torne mais fiel ao conteúdo apresentado na televisão. De início, os passos serão bem semelhantes aos apresentados pelo null-byte mas no final, teremos um algo a mais.
 
-* Baixar o ![Kali linux para arm](https://www.offensive-security.com/kali-linux-arm-images/). Escolha aquela que mais se adequa ao hardware que estiver sendo utilizado. Iremos utilizar o Kali pois é uma distribuição linux focada em segurança, e por conta disso, fornecerá diversas ferramentas que poderão ser utilizadas em missões futuras.
+* Baixar o [Kali linux para arm](https://www.offensive-security.com/kali-linux-arm-images/). Escolha aquela que mais se adequa ao hardware que estiver sendo utilizado. Iremos utilizar o Kali pois é uma distribuição linux focada em segurança, e por conta disso, fornecerá diversas ferramentas que poderão ser utilizadas em missões futuras.
 
 ![offensive security]({{ site.url }}/images/offensive-sec.png)
 
@@ -60,4 +60,5 @@ Ressalvas:
 * Para testar, utilize duas máquinas na mesma LAN, ou a máquina que escuta deverá ter um IP real ou ter um portfoward settado no roteador para que as conexões recebidas em detarmidana porta sejam redirecionadas para a máquina que está escutando.
 
 Quaisquer dúvidas, entre em contato via email: lgribeiro at gris.dcc.ufrj.br
+
 
