@@ -15,8 +15,7 @@ A publicação sobre como criar um raspberry para hacking não retrata fielmente
 1.Baixar o [Kali linux para ARM](https://www.offensive-security.com/kali-linux-arm-images/). Escolha aquela que se adequa ao hardware que estiver utilizando. Iremos utilizar o Kali pois é uma distribuição linux focada em segurança, e por conta disso, fornecerá diversas ferramentas que poderão ser utilizadas em missões futuras.
 
 <figure class="center">
-		<img src="{{ site.url }}/images/offensive-sec.png" alt="">
-		<figcaption>offensive security</figcaption>
+<img src="{{ site.url }}/images/offensive-sec.png" alt="">
 </figure>
 
 
