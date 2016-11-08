@@ -2,7 +2,7 @@
 layout: post
 title: Mr robot's raspberry Pi
 description: "Como criar um raspberry Pi semelhante ao utilizado por Elliot na primeira temporada de Mr Robot"
-tags: [Mr\_robot, raspberry, hack, reverse\_shell]
+tags: [Mr_robot, raspberry, hack, reverse_shell]
 categories: [raspberry, hack]
 author: lgribeiro
 published: true
@@ -44,7 +44,15 @@ Obs: Vale ressaltar que não devemos colocar o script com extensão .sh pois o d
 {% endhighlight %}
 
 * Com a estrutura pronta, precisamos organizar tudo o que temos para que seja possível acessar o raspberry dentro de uma LAN de terceiros. A partir desse ponto que nos desviamos um pouco do artigo que utilizamos como base.
-No lugar de utilizar teclado, tela e demais periféricos, colocaremos nosso script no diretório /etc/network/interfaces/ifup. Dessa forma, assim que a interface do nosso dispositivo começar a funcionar ele executará o script, que fornecerá a shell para a máquina de fora da LAN.
+No lugar de teclado, tela e demais periféricos, colocaremos nosso script no diretório /etc/network/interfaces/ifup. 
+
+{% highlight bash %}
+{% raw %}
+mv reverse /etc/network/interfaces/ifup
+{% endraw %}
+{% endhighlight %}
+
+Dessa forma, assim que a interface do nosso dispositivo começar a funcionar ele executará o script, que fornecerá a shell para a máquina de fora da LAN.
 
 ![elliot wins]({{ site.url }}/images/mr-robot-success.1280x600.jpg)
 
