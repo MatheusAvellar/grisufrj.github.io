@@ -48,6 +48,7 @@ No lugar de utilizar teclado, tela e demais periféricos, colocaremos nosso scri
 ![elliot wins]({{ site.url }}/images/mr-robot-success.1280x600.jpg)
 
 Resalvas:
+
 * Para testar, utilize duas máquinas na mesma LAN, ou a máquina que escuta deverá ter um IP real ou ter um portfoward settado no roteador para que as conexões recebidas em detarmidana porta sejam redirecionadas para a máquina que está escutando.
 
 Quaisquer dúvidas, entre em contato via email: lgribeiro at gris.dcc.ufrj.br
