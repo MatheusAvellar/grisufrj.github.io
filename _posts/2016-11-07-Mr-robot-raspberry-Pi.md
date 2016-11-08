@@ -45,7 +45,7 @@ Obs: Vale ressaltar que não devemos colocar o script com extensão .sh pois o d
 4. Com a estrutura pronta, precisamos organizar tudo o que temos para que seja possível acessar o raspberry dentro de uma LAN de terceiros. A partir desse ponto que nos desviamos um pouco do artigo que utilizamos como base.
 No lugar de utilizar teclado, tela e demais periféricos, colocaremos nosso script no diretório /etc/network/interfaces/ifup. Dessa forma, assim que a interface do nosso dispositivo começar a funcionar ele executará o script, que fornecerá a shell para a máquina de fora da LAN.
 
-![elliot wins]({{ site.url }}/images/mr-robo-success.1280x600.jpg)
+![elliot wins]({{ site.url }}/images/mr-robot-success.1280x600.jpg)
 
 Resalvas:
 * Para testar, utilize duas máquinas na mesma LAN, ou a máquina que escuta deverá ter um IP real ou ter um portfoward settado no roteador para que as conexões recebidas em detarmidana porta sejam redirecionadas para a máquina que está escutando.
