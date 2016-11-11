@@ -10,7 +10,7 @@ published: true
 
 Algum tempo atrás estava dando uma olhada nos posts da série Mr Robot do [null-byte](http://null-byte.wonderhowto.com/how-to/mr-robot-hacks/) e um artigo em especial me chamou a atenção.
 
-A publicação sobre como criar um raspberry para hacking não retrata fielmente as condições encontradas por Elliot no episódio eps1.3\_\_da3m0ns.mp4. Então, optei por adaptar um pouco o tutorial para ele se tornar mais parecido com o conteúdo apresentado na televisão. De início, os passos serão bem semelhantes aos apresentados pelo null-byte mas no final, teremos um algo a mais. Vamos aos passos:
+A publicação sobre como criar um raspberry para hacking não retrata fielmente as condições encontradas por Elliot no episódio eps1.3\_\_da3m0ns.mp4. Então, optei por adaptar um pouco o tutorial para ele se tornar mais parecido com o conteúdo apresentado na televisão. De início, os passos serão bem semelhantes aos apresentados pelo null-byte mas no final, teremos um algo a mais.
 
 1.Baixar o [Kali linux para ARM](https://www.offensive-security.com/kali-linux-arm-images/). Escolha aquela que se adequa ao hardware que estiver utilizando. Iremos utilizar o Kali pois é uma distribuição linux focada em segurança, e por conta disso, fornecerá diversas ferramentas que poderão ser utilizadas em missões futuras.
 
