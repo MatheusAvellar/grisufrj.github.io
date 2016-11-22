@@ -16,6 +16,8 @@ Os capture the flags (CTFs) e wargames são ótimas formas de testar conheciment
 
 O intuito das postagens sobre esses desafios não é fornecer respostas, mas guiar o leitor através da linha de raciocínio utilizada para resolvê-los . Estamos fazendo isso pois é difícil encontrar esse tipo de material em português e, além disso, é uma forma de fornecer a comunidade um pouco daquilo que aprendemos no GRIS. 
 
+<!--more-->
+
 ### O primeiro desafio:
 
 Como primeiro desafio teremos o level01 do [IO netgarage](https://io.netgarage.org/). A temática dele é engenharia reversa (RE) em uma máquina IA-32.
@@ -59,5 +61,7 @@ End of assembler dump.
   
 O código acima está comentado, o que facilita enxergar a solução do problema. Aposto que o número em hexa que está sendo comparado com o registrador eax tem algo de especial.
 
-![elliot hackerman]({{ site.url }}/images/elliot_hackerman.jpg)
+<figure class="center">
+<img src="{{ site.url }}/images/elliot_hackerman.jpg" alt="">
+</figure>
 
