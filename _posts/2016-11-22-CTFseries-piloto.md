@@ -20,7 +20,7 @@ O intuito das postagens sobre esses desafios não é fornecer respostas, mas gui
 
 Como primeiro desafio teremos o level01 do [IO netgarage](https://io.netgarage.org/). A temática dele é engenharia reversa (RE) em uma máquina IA-32.
 
-O primeiro passo é se conectar via ssh no servidor fornecido pelo wargame. para isso, utilizamos o protocolo [SSH](https://pt.wikipedia.org/wiki/Secure_Shell).
+O primeiro passo é se conectar ao servidor fornecido pelo wargame. para isso, utilizamos o protocolo [SSH](https://pt.wikipedia.org/wiki/Secure_Shell).
 
 {% highlight bash %}
 {% raw %}
