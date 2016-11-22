@@ -29,7 +29,7 @@ password: level1
 {% endraw %}
 {% endhighlight %}
 
-conforme a descrição do wargame, temos acesso somente ao programa correspondente ao usuário utilizado. E, além disso, os programas se encontram no diretório /levels. Portanto, acessamos esse diretório {% highlight bash %} $cd /levels  {% endhighlight bash %}.
+conforme a descrição do wargame, temos acesso somente ao programa correspondente ao usuário utilizado. E, além disso, os programas se encontram no diretório /levels. Portanto, acessamos esse diretório {% highlight bash %} $cd /levels  {% endhighlight bash %}
 
 feito isso, executamos o level01 {% highlight bash %} $./level01  {% endhighlight bash %} e com isso, recebemos a output:
 
@@ -39,12 +39,13 @@ Enter the 3 digit passcode to enter:
 {% endraw %}
 {% endhighlight %}
 
-Então, precisamos descobrir a input necessária para que seja possível ler a senha do o level2 do wargame. Para descobrir a chave, utilizaremos o [GDB](https://www.gnu.org/software/gdb/) (GNU debugger) da seguinte maneira  {% highlight bash %}$gdb -q level01  {% endhighlight bash %}. O parâmetro -q é utilizado para o gdb não exibir sua "propaganda" habitual.
+Então, precisamos descobrir a input necessária para que seja possível ler a senha do o level2 do wargame. Para descobrir a chave, utilizaremos o [GDB](https://www.gnu.org/software/gdb/) (GNU debugger) da seguinte maneira  {% highlight bash %}$gdb -q level01  {% endhighlight bash %} O parâmetro -q é utilizado para o gdb não exibir sua "propaganda" habitual.
 
 Feito isso, disassemblamos a função main do binário:
 {% highlight bash %}(gdb) disassemble main  {% endhighlight bash %}
 e teremos como saída:
 {% highlight bash %}
+{% raw %}
 Dump of assembler code for function main:
    0x08048080 <+0>:	push   $0x8049128 //endereço colocado na pilha
    0x08048085 <+5>:	call   0x804810f //chamada de função
@@ -53,10 +54,10 @@ Dump of assembler code for function main:
    0x08048094 <+20>:	je     0x80480dc //se igual, pula para 0x80480dc
    0x0804809a <+26>:	call   0x8048103 //se não, chama 0x8048103
 End of assembler dump.
-  {% endhighlight bash %}
+{% endraw %}
+{% endhighlight bash %}
   
 O código acima está comentado, o que facilita enxergar a solução do problema. Aposto que o número em hexa que está sendo comparado com o registrador eax tem algo de especial.
 
-<figure class="center">  
-rc="{{ site.url }}/images/elliot_hackerman.jpg" alt="">
-</figure>
+![elliot hackerman]({{ site.url }}/images/elliot_hackerman.jpg)
+
