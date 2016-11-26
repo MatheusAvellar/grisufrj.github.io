@@ -16,7 +16,7 @@ Os capture the flags (CTFs) e wargames são ótimas formas de testar conheciment
 
 O intuito das postagens sobre esses desafios não é fornecer respostas, mas guiar o leitor através da linha de raciocínio utilizada para resolvê-los . Estamos fazendo isso pois é difícil encontrar esse tipo de material em português e, além disso, é uma forma de fornecer a comunidade um pouco daquilo que aprendemos no GRIS. 
 
-<!--more-->
+<!-- more -->
 
 ### O primeiro desafio:
 
