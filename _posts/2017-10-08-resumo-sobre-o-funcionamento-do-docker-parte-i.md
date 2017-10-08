@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Resumo sobre as características e o funcionamento do Docker
+title: Resumo sobre as características e o funcionamento do Docker - Parte I
 description: "Uma introdução ao funcionamento do Docker, sem referências externas."
 tags: [docker, virtualization, linux]
 categories: [linux]
