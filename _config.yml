@@ -23,7 +23,7 @@ menu:
     url: '#'
     submenu:
       - title: 'Site'
-        url: 'http://gris.dcc.ufrj.br'
+        url: 'http://gris.dcc.ufrj.br/'
       - title: 'Git'
         url: 'https://git.gris.dcc.ufrj.br/explore/projects/starred'
 
