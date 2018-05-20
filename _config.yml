@@ -105,12 +105,11 @@ bing_verify:
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/Sao_Paulo
 future:      true
-highlighter: pygments
+highlighter: rouge
 markdown:    kramdown
 plugins:
   - jekyll-sitemap
   - jekyll-paginate
-  - pygments.rb
   - jekyll-gist
 sass:
   sass_dir: _sass
