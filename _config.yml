@@ -30,63 +30,61 @@ menu:
 # Owner/author information
 authors:
   gris:
-   display_name:   GRIS
-   site:           http://www.gris.dcc.ufrj.br
-   avatar:         images/GRIS_logo1.png
-   bio:            "Grupo de Resposta a Incidentes de Segurança."
-   email:          gris@gris.dcc.ufrj.br
-   # Social networking links used in footer. Update and remove as you like.
-   twitter:
-   facebook: grisdccufrj
-   github: grisdccufrj
-   stackexchange:
-   linkedin:
-   instagram:
-   flickr:
-   tumblr:
-   # google plus id, include the '+', eg +AronBordin
-   google_plus:
+    display_name:   GRIS
+    site:           http://www.gris.dcc.ufrj.br
+    avatar:         images/GRIS_logo1.png
+    bio:            "Grupo de Resposta a Incidentes de Segurança."
+    email:          gris@gris.dcc.ufrj.br
+    # Social networking links used in footer. Update and remove as you like.
+    twitter:
+    facebook: grisdccufrj
+    github: grisdccufrj
+    stackexchange:
+    linkedin:
+    instagram:
+    flickr:
+    tumblr:
+    # google plus id, include the '+', eg +AronBordin
+    google_plus:
 
   jvitor:
-   display_name:   João Vitor Rebouças
-   site:           http://dcc.ufrj.br/~jvitor
-   avatar:         images/jvitor.jpg
-   bio:            "Estudante de ciência da computação e membro da equipe de Redes Sites e Sistemas do GRIS"
-   email:          jvitor at gris.dcc.ufrj.br
-   facebook: jvitor03
-   github: jvitor03
+    display_name:   João Vitor Rebouças
+    site:           http://dcc.ufrj.br/~jvitor
+    avatar:         images/jvitor.jpg
+    bio:            "Estudante de ciência da computação e membro da equipe de Redes Sites e Sistemas do GRIS"
+    email:          jvitor at gris.dcc.ufrj.br
+    facebook: jvitor03
+    github: jvitor03
 
   lgribeiro:
-   display_name:   Luiz Guilherme Ribeiro
-   site:
-   avatar:         images/lgribeiro.jpg
-   bio:            "Estudante de ciência da computação, entusiasta da área de segurança e amante de soluções criativas e mirabolantes (gambiarras)"
-   email:          lgribeiro at gris.dcc.ufrj.br
-   twitter:
-   facebook: luizguilherme.ribeiro.1
-   github: luizgribeiro
+    display_name:   Luiz Guilherme Ribeiro
+    site:
+    avatar:         images/lgribeiro.jpg
+    bio:            "Estudante de ciência da computação, entusiasta da área de segurança e amante de soluções criativas e mirabolantes (gambiarras)"
+    email:          lgribeiro at gris.dcc.ufrj.br
+    facebook:       luizguilherme.ribeiro.1
+    github:         luizgribeiro
 
-   display_name: Thiago Barroso Perrotta
-   site: https://thiagowfx.github.io/
-   avatar: images/thiagowfx.png
-   bio:
-   email: tperrotta at gris.dcc.ufrj.br
-   twitter: thiagowfx
-   github: thiagowfx
-   stackexchange: 1934732/thiagowfx
-   linkedin: thiagoperrotta
-   instagram: thiagowfx
+  thiagowfx:
+    display_name:   Thiago Barroso Perrotta
+    site:           https://thiagowfx.github.io/
+    avatar:         images/thiagowfx.png
+    bio:
+    email:          tperrotta at gris.dcc.ufrj.br
+    twitter:        thiagowfx
+    github:         thiagowfx
+    stackexchange:  1934732/thiagowfx
+    linkedin:       thiagoperrotta
+    instagram:      thiagowfx
 
   vpires:
-   display_name:   Victor Ribeiro Pires
-   site:
-   avatar:         images/vpires.jpg
-   bio:            "Estudante de ciência da computação"
-   email:          victorpires at gris.dcc.ufrj.br
-   # Social networking links used in footer. Update and remove as you like.
-   twitter:
-   facebook: victorpiresvrp
-   github: slowhusky
+    display_name:   Victor Ribeiro Pires
+    site:
+    avatar:         images/vpires.jpg
+    bio:            "Estudante de ciência da computação"
+    email:          victorpires at gris.dcc.ufrj.br
+    facebook:       victorpiresvrp
+    github:         slowhusky
 
 social:
   - title: "github"
