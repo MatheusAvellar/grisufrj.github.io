@@ -29,14 +29,14 @@ menu:
 
 # Owner/author information
 authors:
-  gris: 
+  gris:
    display_name:   GRIS
    site:           http://www.gris.dcc.ufrj.br
    avatar:         images/GRIS_logo1.png
    bio:            "Grupo de Resposta a Incidentes de Segurança."
    email:          gris@gris.dcc.ufrj.br
    # Social networking links used in footer. Update and remove as you like.
-   twitter: 
+   twitter:
    facebook: grisdccufrj
    github: grisdccufrj
    stackexchange:
@@ -46,70 +46,47 @@ authors:
    tumblr:
    # google plus id, include the '+', eg +AronBordin
    google_plus:
-  jvitor: 
+
+  jvitor:
    display_name:   João Vitor Rebouças
    site:           http://dcc.ufrj.br/~jvitor
    avatar:         images/jvitor.jpg
    bio:            "Estudante de ciência da computação e membro da equipe de Redes Sites e Sistemas do GRIS"
    email:          jvitor at gris.dcc.ufrj.br
-   # Social networking links used in footer. Update and remove as you like.
-   twitter:
    facebook: jvitor03
    github: jvitor03
-   stackexchange:
-   linkedin:
-   instagram:
-   flickr:
-   tumblr:
-   # google plus id, include the '+', eg +AronBordin
-   google_plus:
+
   lgribeiro:
    display_name:   Luiz Guilherme Ribeiro
-   site:           
+   site:
    avatar:         images/lgribeiro.jpg
-   bio:            "Estudante de ciência da computação,  entusiasta da área de segurança e amante de soluções criativas e mirabolantes (gambiarras)"
+   bio:            "Estudante de ciência da computação, entusiasta da área de segurança e amante de soluções criativas e mirabolantes (gambiarras)"
    email:          lgribeiro at gris.dcc.ufrj.br
-   # Social networking links used in footer. Update and remove as you like.
-   twitter: 
+   twitter:
    facebook: luizguilherme.ribeiro.1
    github: luizgribeiro
-   stackexchange:
-   linkedin:
-   instagram:
-   flickr:
-   tumblr:
-   # google plus id, include the '+', eg +AronBordin
-   google_plus:
-  thiagowfx:
+
    display_name: Thiago Barroso Perrotta
    site: https://thiagowfx.github.io/
    avatar: images/thiagowfx.png
    bio:
    email: tperrotta at gris.dcc.ufrj.br
-   # Social networking links used in footer. Update and remove as you like.
    twitter: thiagowfx
    github: thiagowfx
    stackexchange: 1934732/thiagowfx
    linkedin: thiagoperrotta
    instagram: thiagowfx
+
   vpires:
    display_name:   Victor Ribeiro Pires
-   site:           
+   site:
    avatar:         images/vpires.jpg
    bio:            "Estudante de ciência da computação"
    email:          victorpires at gris.dcc.ufrj.br
    # Social networking links used in footer. Update and remove as you like.
-   twitter: 
+   twitter:
    facebook: victorpiresvrp
    github: slowhusky
-   stackexchange:
-   linkedin:
-   instagram:
-   flickr:
-   tumblr:
-   # google plus id, include the '+', eg +AronBordin
-   google_plus:
-
 
 social:
   - title: "github"
